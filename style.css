@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-inline: 5px;
+  display: block;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 400px;
+  outline: none;
+}
+.button {
+  padding: 10px 40px;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 200px;
+  background-color: #113cfc;
+  color: white;
+}
+.top {
+  width: 50%;
+  margin: 0 auto;
+}
+.OTP input {
+  width: 50px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+nav {
+  background-color: #113cfc;
+  text-align: center;
+  padding: 20px;
+}
